@@ -3,453 +3,842 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 46;
 	objects = {
 
+/* Begin PBXAggregateTarget section */
+		"SwiftDictQuery::SwiftDictQueryPackageTests::ProductTarget" /* SwiftDictQueryPackageTests */ = {
+			isa = PBXAggregateTarget;
+			buildConfigurationList = OBJ_71 /* Build configuration list for PBXAggregateTarget "SwiftDictQueryPackageTests" */;
+			buildPhases = (
+			);
+			dependencies = (
+				OBJ_74 /* PBXTargetDependency */,
+			);
+			name = SwiftDictQueryPackageTests;
+			productName = SwiftDictQueryPackageTests;
+		};
+/* End PBXAggregateTarget section */
+
 /* Begin PBXBuildFile section */
-		63B0FD53210898A400269EDB /* SwiftDictQuery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63B0FD49210898A400269EDB /* SwiftDictQuery.framework */; };
-		63B0FD58210898A400269EDB /* SwiftDictQueryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63B0FD57210898A400269EDB /* SwiftDictQueryTests.swift */; };
-		63B0FD5A210898A400269EDB /* SwiftDictQuery.h in Headers */ = {isa = PBXBuildFile; fileRef = 63B0FD4C210898A400269EDB /* SwiftDictQuery.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		OBJ_36 /* PerfectPython.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_24 /* PerfectPython.swift */; };
+		OBJ_38 /* PythonAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectPython::PythonAPI::Product" /* PythonAPI.framework */; };
+		OBJ_46 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_25 /* Package.swift */; };
+		OBJ_51 /* PythonAPI.c in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_19 /* PythonAPI.c */; };
+		OBJ_58 /* SwiftDictQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_9 /* SwiftDictQuery.swift */; };
+		OBJ_60 /* PerfectPython.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectPython::PerfectPython::Product" /* PerfectPython.framework */; };
+		OBJ_61 /* PythonAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectPython::PythonAPI::Product" /* PythonAPI.framework */; };
+		OBJ_69 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_6 /* Package.swift */; };
+		OBJ_80 /* SwiftDictQueryTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_12 /* SwiftDictQueryTests.swift */; };
+		OBJ_81 /* XCTestManifests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* XCTestManifests.swift */; };
+		OBJ_83 /* SwiftDictQuery.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "SwiftDictQuery::SwiftDictQuery::Product" /* SwiftDictQuery.framework */; };
+		OBJ_84 /* PerfectPython.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectPython::PerfectPython::Product" /* PerfectPython.framework */; };
+		OBJ_85 /* PythonAPI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = "PerfectPython::PythonAPI::Product" /* PythonAPI.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		63B0FD54210898A400269EDB /* PBXContainerItemProxy */ = {
+		63B55F3621089A8600CA24E1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 63B0FD40210898A400269EDB /* Project object */;
+			containerPortal = OBJ_1 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 63B0FD48210898A400269EDB;
+			remoteGlobalIDString = "PerfectPython::PerfectPython";
+			remoteInfo = PerfectPython;
+		};
+		63B55F3721089A8600CA24E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectPython::PythonAPI";
+			remoteInfo = PythonAPI;
+		};
+		63B55F3821089A8600CA24E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectPython::PythonAPI";
+			remoteInfo = PythonAPI;
+		};
+		63B55F3921089A8600CA24E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftDictQuery::SwiftDictQuery";
 			remoteInfo = SwiftDictQuery;
+		};
+		63B55F3A21089A8600CA24E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectPython::PerfectPython";
+			remoteInfo = PerfectPython;
+		};
+		63B55F3B21089A8600CA24E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "PerfectPython::PythonAPI";
+			remoteInfo = PythonAPI;
+		};
+		63B55F3C21089A8700CA24E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = "SwiftDictQuery::SwiftDictQueryTests";
+			remoteInfo = SwiftDictQueryTests;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		63B0FD49210898A400269EDB /* SwiftDictQuery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftDictQuery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		63B0FD4C210898A400269EDB /* SwiftDictQuery.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftDictQuery.h; sourceTree = "<group>"; };
-		63B0FD4D210898A400269EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		63B0FD52210898A400269EDB /* SwiftDictQueryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDictQueryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		63B0FD57210898A400269EDB /* SwiftDictQueryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDictQueryTests.swift; sourceTree = "<group>"; };
-		63B0FD59210898A400269EDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		OBJ_12 /* SwiftDictQueryTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDictQueryTests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* XCTestManifests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XCTestManifests.swift; sourceTree = "<group>"; };
+		OBJ_14 /* SwiftDictQuery */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SwiftDictQuery; sourceTree = SOURCE_ROOT; };
+		OBJ_15 /* SwiftDictQueryTests */ = {isa = PBXFileReference; lastKnownFileType = folder; path = SwiftDictQueryTests; sourceTree = SOURCE_ROOT; };
+		OBJ_19 /* PythonAPI.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = PythonAPI.c; sourceTree = "<group>"; };
+		OBJ_21 /* PythonAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PythonAPI.h; sourceTree = "<group>"; };
+		OBJ_22 /* module.modulemap */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.module-map"; name = module.modulemap; path = "/Users/David/Github/SwiftDictQuery/.build/checkouts/Perfect-Python.git--1333346557404510047/Sources/PythonAPI/include/module.modulemap"; sourceTree = "<group>"; };
+		OBJ_24 /* PerfectPython.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PerfectPython.swift; sourceTree = "<group>"; };
+		OBJ_25 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; name = Package.swift; path = "/Users/David/Github/SwiftDictQuery/.build/checkouts/Perfect-Python.git--1333346557404510047/Package.swift"; sourceTree = "<group>"; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		OBJ_9 /* SwiftDictQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDictQuery.swift; sourceTree = "<group>"; };
+		"PerfectPython::PerfectPython::Product" /* PerfectPython.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PerfectPython.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"PerfectPython::PythonAPI::Product" /* PythonAPI.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = PythonAPI.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SwiftDictQuery::SwiftDictQuery::Product" /* SwiftDictQuery.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftDictQuery.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		"SwiftDictQuery::SwiftDictQueryTests::Product" /* SwiftDictQueryTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftDictQueryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		63B0FD45210898A400269EDB /* Frameworks */ = {
+		OBJ_37 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
+			files = (
+				OBJ_38 /* PythonAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_52 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63B0FD4F210898A400269EDB /* Frameworks */ = {
+		OBJ_59 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				63B0FD53210898A400269EDB /* SwiftDictQuery.framework in Frameworks */,
+				OBJ_60 /* PerfectPython.framework in Frameworks */,
+				OBJ_61 /* PythonAPI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_82 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_83 /* SwiftDictQuery.framework in Frameworks */,
+				OBJ_84 /* PerfectPython.framework in Frameworks */,
+				OBJ_85 /* PythonAPI.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		63B0FD3F210898A400269EDB = {
+		OBJ_10 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				63B0FD4B210898A400269EDB /* SwiftDictQuery */,
-				63B0FD56210898A400269EDB /* SwiftDictQueryTests */,
-				63B0FD4A210898A400269EDB /* Products */,
+				OBJ_11 /* SwiftDictQueryTests */,
 			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_11 /* SwiftDictQueryTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_12 /* SwiftDictQueryTests.swift */,
+				OBJ_13 /* XCTestManifests.swift */,
+			);
+			name = SwiftDictQueryTests;
+			path = Tests/SwiftDictQueryTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_16 /* Dependencies */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_17 /* PerfectPython 3.2.0 */,
+			);
+			name = Dependencies;
 			sourceTree = "<group>";
 		};
-		63B0FD4A210898A400269EDB /* Products */ = {
+		OBJ_17 /* PerfectPython 3.2.0 */ = {
 			isa = PBXGroup;
 			children = (
-				63B0FD49210898A400269EDB /* SwiftDictQuery.framework */,
-				63B0FD52210898A400269EDB /* SwiftDictQueryTests.xctest */,
+				OBJ_18 /* PythonAPI */,
+				OBJ_23 /* PerfectPython */,
+				OBJ_25 /* Package.swift */,
+			);
+			name = "PerfectPython 3.2.0";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_18 /* PythonAPI */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_19 /* PythonAPI.c */,
+				OBJ_20 /* include */,
+			);
+			name = PythonAPI;
+			path = ".build/checkouts/Perfect-Python.git--1333346557404510047/Sources/PythonAPI";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_20 /* include */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_21 /* PythonAPI.h */,
+				OBJ_22 /* module.modulemap */,
+			);
+			path = include;
+			sourceTree = "<group>";
+		};
+		OBJ_23 /* PerfectPython */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_24 /* PerfectPython.swift */,
+			);
+			name = PerfectPython;
+			path = ".build/checkouts/Perfect-Python.git--1333346557404510047/Sources/PerfectPython";
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_26 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				"SwiftDictQuery::SwiftDictQueryTests::Product" /* SwiftDictQueryTests.xctest */,
+				"SwiftDictQuery::SwiftDictQuery::Product" /* SwiftDictQuery.framework */,
+				"PerfectPython::PerfectPython::Product" /* PerfectPython.framework */,
+				"PerfectPython::PythonAPI::Product" /* PythonAPI.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
+			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		63B0FD4B210898A400269EDB /* SwiftDictQuery */ = {
+		OBJ_5 /*  */ = {
 			isa = PBXGroup;
 			children = (
-				63B0FD4C210898A400269EDB /* SwiftDictQuery.h */,
-				63B0FD4D210898A400269EDB /* Info.plist */,
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_10 /* Tests */,
+				OBJ_14 /* SwiftDictQuery */,
+				OBJ_15 /* SwiftDictQueryTests */,
+				OBJ_16 /* Dependencies */,
+				OBJ_26 /* Products */,
 			);
-			path = SwiftDictQuery;
+			name = "";
 			sourceTree = "<group>";
 		};
-		63B0FD56210898A400269EDB /* SwiftDictQueryTests */ = {
+		OBJ_7 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
-				63B0FD57210898A400269EDB /* SwiftDictQueryTests.swift */,
-				63B0FD59210898A400269EDB /* Info.plist */,
+				OBJ_8 /* SwiftDictQuery */,
 			);
-			path = SwiftDictQueryTests;
-			sourceTree = "<group>";
+			name = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_8 /* SwiftDictQuery */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_9 /* SwiftDictQuery.swift */,
+			);
+			name = SwiftDictQuery;
+			path = Sources/SwiftDictQuery;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		63B0FD46210898A400269EDB /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				63B0FD5A210898A400269EDB /* SwiftDictQuery.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		63B0FD48210898A400269EDB /* SwiftDictQuery */ = {
+		"PerfectPython::PerfectPython" /* PerfectPython */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63B0FD5D210898A400269EDB /* Build configuration list for PBXNativeTarget "SwiftDictQuery" */;
+			buildConfigurationList = OBJ_32 /* Build configuration list for PBXNativeTarget "PerfectPython" */;
 			buildPhases = (
-				63B0FD44210898A400269EDB /* Sources */,
-				63B0FD45210898A400269EDB /* Frameworks */,
-				63B0FD46210898A400269EDB /* Headers */,
-				63B0FD47210898A400269EDB /* Resources */,
+				OBJ_35 /* Sources */,
+				OBJ_37 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				OBJ_39 /* PBXTargetDependency */,
+			);
+			name = PerfectPython;
+			productName = PerfectPython;
+			productReference = "PerfectPython::PerfectPython::Product" /* PerfectPython.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectPython::PythonAPI" /* PythonAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_47 /* Build configuration list for PBXNativeTarget "PythonAPI" */;
+			buildPhases = (
+				OBJ_50 /* Sources */,
+				OBJ_52 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PythonAPI;
+			productName = PythonAPI;
+			productReference = "PerfectPython::PythonAPI::Product" /* PythonAPI.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		"PerfectPython::SwiftPMPackageDescription" /* PerfectPythonPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_42 /* Build configuration list for PBXNativeTarget "PerfectPythonPackageDescription" */;
+			buildPhases = (
+				OBJ_45 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PerfectPythonPackageDescription;
+			productName = PerfectPythonPackageDescription;
+			productType = "com.apple.product-type.framework";
+		};
+		"SwiftDictQuery::SwiftDictQuery" /* SwiftDictQuery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_54 /* Build configuration list for PBXNativeTarget "SwiftDictQuery" */;
+			buildPhases = (
+				OBJ_57 /* Sources */,
+				OBJ_59 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_62 /* PBXTargetDependency */,
+				OBJ_63 /* PBXTargetDependency */,
 			);
 			name = SwiftDictQuery;
 			productName = SwiftDictQuery;
-			productReference = 63B0FD49210898A400269EDB /* SwiftDictQuery.framework */;
+			productReference = "SwiftDictQuery::SwiftDictQuery::Product" /* SwiftDictQuery.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		63B0FD51210898A400269EDB /* SwiftDictQueryTests */ = {
+		"SwiftDictQuery::SwiftDictQueryTests" /* SwiftDictQueryTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 63B0FD60210898A400269EDB /* Build configuration list for PBXNativeTarget "SwiftDictQueryTests" */;
+			buildConfigurationList = OBJ_76 /* Build configuration list for PBXNativeTarget "SwiftDictQueryTests" */;
 			buildPhases = (
-				63B0FD4E210898A400269EDB /* Sources */,
-				63B0FD4F210898A400269EDB /* Frameworks */,
-				63B0FD50210898A400269EDB /* Resources */,
+				OBJ_79 /* Sources */,
+				OBJ_82 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				63B0FD55210898A400269EDB /* PBXTargetDependency */,
+				OBJ_86 /* PBXTargetDependency */,
+				OBJ_87 /* PBXTargetDependency */,
+				OBJ_88 /* PBXTargetDependency */,
 			);
 			name = SwiftDictQueryTests;
 			productName = SwiftDictQueryTests;
-			productReference = 63B0FD52210898A400269EDB /* SwiftDictQueryTests.xctest */;
+			productReference = "SwiftDictQuery::SwiftDictQueryTests::Product" /* SwiftDictQueryTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		"SwiftDictQuery::SwiftPMPackageDescription" /* SwiftDictQueryPackageDescription */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_65 /* Build configuration list for PBXNativeTarget "SwiftDictQueryPackageDescription" */;
+			buildPhases = (
+				OBJ_68 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDictQueryPackageDescription;
+			productName = SwiftDictQueryPackageDescription;
+			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		63B0FD40210898A400269EDB /* Project object */ = {
+		OBJ_1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0940;
-				LastUpgradeCheck = 0940;
-				ORGANIZATIONNAME = "David Chen";
-				TargetAttributes = {
-					63B0FD48210898A400269EDB = {
-						CreatedOnToolsVersion = 9.4.1;
-					};
-					63B0FD51210898A400269EDB = {
-						CreatedOnToolsVersion = 9.4.1;
-					};
-				};
+				LastUpgradeCheck = 9999;
 			};
-			buildConfigurationList = 63B0FD43210898A400269EDB /* Build configuration list for PBXProject "SwiftDictQuery" */;
-			compatibilityVersion = "Xcode 9.3";
-			developmentRegion = en;
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SwiftDictQuery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 63B0FD3F210898A400269EDB;
-			productRefGroup = 63B0FD4A210898A400269EDB /* Products */;
+			mainGroup = OBJ_5 /*  */;
+			productRefGroup = OBJ_26 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				63B0FD48210898A400269EDB /* SwiftDictQuery */,
-				63B0FD51210898A400269EDB /* SwiftDictQueryTests */,
+				"PerfectPython::PerfectPython" /* PerfectPython */,
+				"PerfectPython::SwiftPMPackageDescription" /* PerfectPythonPackageDescription */,
+				"PerfectPython::PythonAPI" /* PythonAPI */,
+				"SwiftDictQuery::SwiftDictQuery" /* SwiftDictQuery */,
+				"SwiftDictQuery::SwiftPMPackageDescription" /* SwiftDictQueryPackageDescription */,
+				"SwiftDictQuery::SwiftDictQueryPackageTests::ProductTarget" /* SwiftDictQueryPackageTests */,
+				"SwiftDictQuery::SwiftDictQueryTests" /* SwiftDictQueryTests */,
 			);
 		};
 /* End PBXProject section */
 
-/* Begin PBXResourcesBuildPhase section */
-		63B0FD47210898A400269EDB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		63B0FD50210898A400269EDB /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		63B0FD44210898A400269EDB /* Sources */ = {
+		OBJ_35 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
+				OBJ_36 /* PerfectPython.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		63B0FD4E210898A400269EDB /* Sources */ = {
+		OBJ_45 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 0;
 			files = (
-				63B0FD58210898A400269EDB /* SwiftDictQueryTests.swift in Sources */,
+				OBJ_46 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_50 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_51 /* PythonAPI.c in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_58 /* SwiftDictQuery.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_68 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_69 /* Package.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_79 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_80 /* SwiftDictQueryTests.swift in Sources */,
+				OBJ_81 /* XCTestManifests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		63B0FD55210898A400269EDB /* PBXTargetDependency */ = {
+		OBJ_39 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 63B0FD48210898A400269EDB /* SwiftDictQuery */;
-			targetProxy = 63B0FD54210898A400269EDB /* PBXContainerItemProxy */;
+			target = "PerfectPython::PythonAPI" /* PythonAPI */;
+			targetProxy = 63B55F3721089A8600CA24E1 /* PBXContainerItemProxy */;
+		};
+		OBJ_62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectPython::PerfectPython" /* PerfectPython */;
+			targetProxy = 63B55F3621089A8600CA24E1 /* PBXContainerItemProxy */;
+		};
+		OBJ_63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectPython::PythonAPI" /* PythonAPI */;
+			targetProxy = 63B55F3821089A8600CA24E1 /* PBXContainerItemProxy */;
+		};
+		OBJ_74 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftDictQuery::SwiftDictQueryTests" /* SwiftDictQueryTests */;
+			targetProxy = 63B55F3C21089A8700CA24E1 /* PBXContainerItemProxy */;
+		};
+		OBJ_86 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "SwiftDictQuery::SwiftDictQuery" /* SwiftDictQuery */;
+			targetProxy = 63B55F3921089A8600CA24E1 /* PBXContainerItemProxy */;
+		};
+		OBJ_87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectPython::PerfectPython" /* PerfectPython */;
+			targetProxy = 63B55F3A21089A8600CA24E1 /* PBXContainerItemProxy */;
+		};
+		OBJ_88 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = "PerfectPython::PythonAPI" /* PythonAPI */;
+			targetProxy = 63B55F3B21089A8600CA24E1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		63B0FD5B210898A400269EDB /* Debug */ = {
+		OBJ_3 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				ENABLE_TESTABILITY = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_NO_COMMON_BLOCKS = YES;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_ENABLE_DEBUG_INFO = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				USE_HEADERMAP = NO;
 			};
 			name = Debug;
 		};
-		63B0FD5C210898A400269EDB /* Release */ = {
+		OBJ_33 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_ANALYZER_NONNULL = YES;
-				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_MODULES = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-Python.git--1333346557404510047/Sources/PythonAPI/include",
+				);
+				INFOPLIST_FILE = SwiftDictQuery.xcodeproj/PerfectPython_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-Python.git--1333346557404510047/Sources/PythonAPI/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectPython;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = PerfectPython;
+			};
+			name = Debug;
+		};
+		OBJ_34 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-Python.git--1333346557404510047/Sources/PythonAPI/include",
+				);
+				INFOPLIST_FILE = SwiftDictQuery.xcodeproj/PerfectPython_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-Python.git--1333346557404510047/Sources/PythonAPI/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = PerfectPython;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = PerfectPython;
+			};
+			name = Release;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
 				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_ENABLE_OBJC_WEAK = YES;
-				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
-				CLANG_WARN_BOOL_CONVERSION = YES;
-				CLANG_WARN_COMMA = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
-				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
-				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INFINITE_RECURSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
-				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
-				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
-				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
-				CLANG_WARN_STRICT_PROTOTYPES = YES;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
-				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
-				CLANG_WARN_UNREACHABLE_CODE = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
-				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu11;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
-				GCC_WARN_UNDECLARED_SELECTOR = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
-				GCC_WARN_UNUSED_FUNCTION = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.13;
-				MTL_ENABLE_DEBUG_INFO = NO;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				USE_HEADERMAP = NO;
 			};
 			name = Release;
 		};
-		63B0FD5E210898A400269EDB /* Debug */ = {
+		OBJ_43 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = SwiftDictQuery/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cc.cwsoft.SwiftDictQuery;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		63B0FD5F210898A400269EDB /* Release */ = {
+		OBJ_44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				FRAMEWORK_VERSION = A;
-				INFOPLIST_FILE = SwiftDictQuery/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cc.cwsoft.SwiftDictQuery;
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SKIP_INSTALL = YES;
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
-		63B0FD61210898A400269EDB /* Debug */ = {
+		OBJ_48 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = SwiftDictQueryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cc.cwsoft.SwiftDictQueryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-Python.git--1333346557404510047/Sources/PythonAPI/include",
+				);
+				INFOPLIST_FILE = SwiftDictQuery.xcodeproj/PythonAPI_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PythonAPI;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = PythonAPI;
+			};
+			name = Debug;
+		};
+		OBJ_49 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEFINES_MODULE = NO;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-Python.git--1333346557404510047/Sources/PythonAPI/include",
+				);
+				INFOPLIST_FILE = SwiftDictQuery.xcodeproj/PythonAPI_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = PythonAPI;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = PythonAPI;
+			};
+			name = Release;
+		};
+		OBJ_55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-Python.git--1333346557404510047/Sources/PythonAPI/include",
+				);
+				INFOPLIST_FILE = SwiftDictQuery.xcodeproj/SwiftDictQuery_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-Python.git--1333346557404510047/Sources/PythonAPI/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftDictQuery;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SwiftDictQuery;
+			};
+			name = Debug;
+		};
+		OBJ_56 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-Python.git--1333346557404510047/Sources/PythonAPI/include",
+				);
+				INFOPLIST_FILE = SwiftDictQuery.xcodeproj/SwiftDictQuery_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) $(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-Python.git--1333346557404510047/Sources/PythonAPI/include/module.modulemap";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftDictQuery;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SwiftDictQuery;
+			};
+			name = Release;
+		};
+		OBJ_66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		63B0FD62210898A400269EDB /* Release */ = {
+		OBJ_67 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_STYLE = Automatic;
-				COMBINE_HIDPI_IMAGES = YES;
-				INFOPLIST_FILE = SwiftDictQueryTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/../Frameworks",
-					"@loader_path/../Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = cc.cwsoft.SwiftDictQueryTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				LD = /usr/bin/true;
+				OTHER_SWIFT_FLAGS = "-swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4 -target x86_64-apple-macosx10.10 -sdk /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX10.13.sdk";
 				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		OBJ_72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		OBJ_73 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		OBJ_77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-Python.git--1333346557404510047/Sources/PythonAPI/include",
+				);
+				INFOPLIST_FILE = SwiftDictQuery.xcodeproj/SwiftDictQueryTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-Python.git--1333346557404510047/Sources/PythonAPI/include/module.modulemap";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SwiftDictQueryTests;
+			};
+			name = Debug;
+		};
+		OBJ_78 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/.build/checkouts/Perfect-Python.git--1333346557404510047/Sources/PythonAPI/include",
+				);
+				INFOPLIST_FILE = SwiftDictQuery.xcodeproj/SwiftDictQueryTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_CFLAGS = "$(inherited)";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited) -Xcc -fmodule-map-file=$(SRCROOT)/.build/checkouts/Perfect-Python.git--1333346557404510047/Sources/PythonAPI/include/module.modulemap";
+				SWIFT_VERSION = 4.0;
+				TARGET_NAME = SwiftDictQueryTests;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		63B0FD43210898A400269EDB /* Build configuration list for PBXProject "SwiftDictQuery" */ = {
+		OBJ_2 /* Build configuration list for PBXProject "SwiftDictQuery" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63B0FD5B210898A400269EDB /* Debug */,
-				63B0FD5C210898A400269EDB /* Release */,
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63B0FD5D210898A400269EDB /* Build configuration list for PBXNativeTarget "SwiftDictQuery" */ = {
+		OBJ_32 /* Build configuration list for PBXNativeTarget "PerfectPython" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63B0FD5E210898A400269EDB /* Debug */,
-				63B0FD5F210898A400269EDB /* Release */,
+				OBJ_33 /* Debug */,
+				OBJ_34 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		63B0FD60210898A400269EDB /* Build configuration list for PBXNativeTarget "SwiftDictQueryTests" */ = {
+		OBJ_42 /* Build configuration list for PBXNativeTarget "PerfectPythonPackageDescription" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				63B0FD61210898A400269EDB /* Debug */,
-				63B0FD62210898A400269EDB /* Release */,
+				OBJ_43 /* Debug */,
+				OBJ_44 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_47 /* Build configuration list for PBXNativeTarget "PythonAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_48 /* Debug */,
+				OBJ_49 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_54 /* Build configuration list for PBXNativeTarget "SwiftDictQuery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_55 /* Debug */,
+				OBJ_56 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_65 /* Build configuration list for PBXNativeTarget "SwiftDictQueryPackageDescription" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_66 /* Debug */,
+				OBJ_67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_71 /* Build configuration list for PBXAggregateTarget "SwiftDictQueryPackageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_72 /* Debug */,
+				OBJ_73 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		OBJ_76 /* Build configuration list for PBXNativeTarget "SwiftDictQueryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_77 /* Debug */,
+				OBJ_78 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 63B0FD40210898A400269EDB /* Project object */;
+	rootObject = OBJ_1 /* Project object */;
 }
